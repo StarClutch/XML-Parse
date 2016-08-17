@@ -1,0 +1,16 @@
+PODS:
+  - XML-Parse (1.0.0)
+
+DEPENDENCIES:
+  - XML-Parse (from `../`)
+
+EXTERNAL SOURCES:
+  XML-Parse:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XML-Parse: a8fdcbdfffbf20d2ec0484b8f650ea18c12f1c20
+
+PODFILE CHECKSUM: 371750cef8319c3af10015d6ec619422dcb2fb2c
+
+COCOAPODS: 1.0.1

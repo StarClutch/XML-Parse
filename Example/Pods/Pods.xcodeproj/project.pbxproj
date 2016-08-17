@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00796C12F1F5AA58E6EA18FAEBEA94BC /* XML-Parse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7424EE8EA442585E78E2CEB4859EC750 /* XML-Parse-dummy.m */; };
+		4344A935632E0CC47327CFEEBD148A44 /* Pods-XML-Parse_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDC95749C0E5D9213208FAE4EDF545E /* Pods-XML-Parse_Example-dummy.m */; };
+		5044EFC4EDB32EF9620BF39FCBCB9CAB /* XMLParse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD9848F4F286E23170DBA127672CB0 /* XMLParse.m */; };
+		7B1C9953444817C80FBC970FAF45EB4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C159A6E18052E8E7C75011D30DAA517C /* XMLParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5111973D96EE91F447E4FB99A6DDB647 /* XMLParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB2092DA9946764170077B5505F1FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F8207C52D72D24EDCDB1EF734636FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E733A07F9CE811440C4BF3B9BCD8390;
+			remoteInfo = "XML-Parse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1228FE646BEB1F538DE281BB38B0D74F /* libXML-Parse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXML-Parse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B9AFC095E39756E9BA382C375133B0 /* XML-Parse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XML-Parse.xcconfig"; sourceTree = "<group>"; };
+		1FF69110CF45F9F9A9E61A8C15178786 /* Pods-XML-Parse_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XML-Parse_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5111973D96EE91F447E4FB99A6DDB647 /* XMLParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMLParse.h; sourceTree = "<group>"; };
+		6DCFC86EE68FD5C243313BE9748B77F1 /* XML-Parse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XML-Parse-prefix.pch"; sourceTree = "<group>"; };
+		7424EE8EA442585E78E2CEB4859EC750 /* XML-Parse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XML-Parse-dummy.m"; sourceTree = "<group>"; };
+		7B8F703481CD70FE7B4797270D7FFBE2 /* Pods-XML-Parse_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XML-Parse_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9C94F819CE2E3A82A87234D1256E5D /* Pods-XML-Parse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XML-Parse_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3DD9848F4F286E23170DBA127672CB0 /* XMLParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMLParse.m; sourceTree = "<group>"; };
+		BBDC95749C0E5D9213208FAE4EDF545E /* Pods-XML-Parse_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XML-Parse_Example-dummy.m"; sourceTree = "<group>"; };
+		CCCCD4DD2AD05C2069DFA360C4C46105 /* Pods-XML-Parse_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XML-Parse_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3A75432FA86C38E7A0C232A1D464243 /* Pods-XML-Parse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XML-Parse_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D86E942E717425CD971505B3095A42FB /* libPods-XML-Parse_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XML-Parse_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE87DEA655A2F1B9E1C9F53991A2EB5 /* Pods-XML-Parse_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XML-Parse_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5E4FBDE224D6BE51F918D75C025E9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB2092DA9946764170077B5505F1FEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB933FD39FE368954DD88CB0A2E10C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1C9953444817C80FBC970FAF45EB4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2857ECC37BFADCB2BE534EFF6FB9DB9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5111973D96EE91F447E4FB99A6DDB647 /* XMLParse.h */,
+				B3DD9848F4F286E23170DBA127672CB0 /* XMLParse.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56C3E8C32F7D8CE3C0D8CC49304D8941 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06C4B163E768157002883B2C554D453 /* XML-Parse */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B0F4309620CF7657A3C67A9191720C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B9AFC095E39756E9BA382C375133B0 /* XML-Parse.xcconfig */,
+				7424EE8EA442585E78E2CEB4859EC750 /* XML-Parse-dummy.m */,
+				6DCFC86EE68FD5C243313BE9748B77F1 /* XML-Parse-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XML-Parse";
+			sourceTree = "<group>";
+		};
+		7BEA24F2889D7E7633135C09A7C350BD /* Pods-XML-Parse_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B8F703481CD70FE7B4797270D7FFBE2 /* Pods-XML-Parse_Example-acknowledgements.markdown */,
+				1FF69110CF45F9F9A9E61A8C15178786 /* Pods-XML-Parse_Example-acknowledgements.plist */,
+				BBDC95749C0E5D9213208FAE4EDF545E /* Pods-XML-Parse_Example-dummy.m */,
+				CCCCD4DD2AD05C2069DFA360C4C46105 /* Pods-XML-Parse_Example-frameworks.sh */,
+				DDE87DEA655A2F1B9E1C9F53991A2EB5 /* Pods-XML-Parse_Example-resources.sh */,
+				D3A75432FA86C38E7A0C232A1D464243 /* Pods-XML-Parse_Example.debug.xcconfig */,
+				9E9C94F819CE2E3A82A87234D1256E5D /* Pods-XML-Parse_Example.release.xcconfig */,
+			);
+			name = "Pods-XML-Parse_Example";
+			path = "Target Support Files/Pods-XML-Parse_Example";
+			sourceTree = "<group>";
+		};
+		7C91E7C316D949B198544A5D9D471A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86E942E717425CD971505B3095A42FB /* libPods-XML-Parse_Example.a */,
+				1228FE646BEB1F538DE281BB38B0D74F /* libXML-Parse.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				56C3E8C32F7D8CE3C0D8CC49304D8941 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7C91E7C316D949B198544A5D9D471A9C /* Products */,
+				DC6E4144AF04BB299415D5514DDAB795 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B06C4B163E768157002883B2C554D453 /* XML-Parse */ = {
+			isa = PBXGroup;
+			children = (
+				7B0F4309620CF7657A3C67A9191720C9 /* Support Files */,
+				DBB5F136A5340D0502663B2E026EC9FB /* XML-Parse */,
+			);
+			name = "XML-Parse";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB5F136A5340D0502663B2E026EC9FB /* XML-Parse */ = {
+			isa = PBXGroup;
+			children = (
+				2857ECC37BFADCB2BE534EFF6FB9DB9E /* Classes */,
+			);
+			path = "XML-Parse";
+			sourceTree = "<group>";
+		};
+		DC6E4144AF04BB299415D5514DDAB795 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA24F2889D7E7633135C09A7C350BD /* Pods-XML-Parse_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		471520D9795D7FF78B362EB963E0276F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C159A6E18052E8E7C75011D30DAA517C /* XMLParse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A6FC0118164582EE52E4A61BEB4C7F5 /* Pods-XML-Parse_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EE9C608214356C05A1D77CB3DD94F6 /* Build configuration list for PBXNativeTarget "Pods-XML-Parse_Example" */;
+			buildPhases = (
+				043426F06F9B21F656F6F8D725547C6B /* Sources */,
+				C5E4FBDE224D6BE51F918D75C025E9E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA2BB047FB2876A0E52299A4F0A39B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-XML-Parse_Example";
+			productName = "Pods-XML-Parse_Example";
+			productReference = D86E942E717425CD971505B3095A42FB /* libPods-XML-Parse_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E733A07F9CE811440C4BF3B9BCD8390 /* XML-Parse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082F8AC5773B19650CC4FBE7ECBB006E /* Build configuration list for PBXNativeTarget "XML-Parse" */;
+			buildPhases = (
+				A420E55A72DFA195A1C57250AE5F3599 /* Sources */,
+				DAB933FD39FE368954DD88CB0A2E10C1 /* Frameworks */,
+				471520D9795D7FF78B362EB963E0276F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XML-Parse";
+			productName = "XML-Parse";
+			productReference = 1228FE646BEB1F538DE281BB38B0D74F /* libXML-Parse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7C91E7C316D949B198544A5D9D471A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A6FC0118164582EE52E4A61BEB4C7F5 /* Pods-XML-Parse_Example */,
+				5E733A07F9CE811440C4BF3B9BCD8390 /* XML-Parse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043426F06F9B21F656F6F8D725547C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4344A935632E0CC47327CFEEBD148A44 /* Pods-XML-Parse_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A420E55A72DFA195A1C57250AE5F3599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00796C12F1F5AA58E6EA18FAEBEA94BC /* XML-Parse-dummy.m in Sources */,
+				5044EFC4EDB32EF9620BF39FCBCB9CAB /* XMLParse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA2BB047FB2876A0E52299A4F0A39B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XML-Parse";
+			target = 5E733A07F9CE811440C4BF3B9BCD8390 /* XML-Parse */;
+			targetProxy = 0F8207C52D72D24EDCDB1EF734636FEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200BC9844DC9A0EC6C2BD49FFA330F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9C94F819CE2E3A82A87234D1256E5D /* Pods-XML-Parse_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		207B549589BB935023F1ED01D3CB7C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A75432FA86C38E7A0C232A1D464243 /* Pods-XML-Parse_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81F834A4072C547543CF147ED3C6B0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B9AFC095E39756E9BA382C375133B0 /* XML-Parse.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XML-Parse/XML-Parse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC2B20A257BCA6E7510B4ED47316336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B9AFC095E39756E9BA382C375133B0 /* XML-Parse.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XML-Parse/XML-Parse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082F8AC5773B19650CC4FBE7ECBB006E /* Build configuration list for PBXNativeTarget "XML-Parse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2B20A257BCA6E7510B4ED47316336C /* Debug */,
+				81F834A4072C547543CF147ED3C6B0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EE9C608214356C05A1D77CB3DD94F6 /* Build configuration list for PBXNativeTarget "Pods-XML-Parse_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207B549589BB935023F1ED01D3CB7C1A /* Debug */,
+				200BC9844DC9A0EC6C2BD49FFA330F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

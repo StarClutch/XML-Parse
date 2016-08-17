@@ -8,22 +8,30 @@
 
 #import "XMLViewController.h"
 
+#import <XMLParse.h>
 @interface XMLViewController ()
 
 @end
 
 @implementation XMLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //XMLParse *parse=[[XMLParse alloc] initWithParseURL:@"http://www.newsisfree.com/HPE/xml/feeds/42/1842.xml"];
+    XMLParse *parse=[[XMLParse alloc] initWithParseURL:@"http://www.tattoonow.com/rss/tattoo-of-the-day.xml"];
+    parse.delegate=(id)self;
+    [parse parse];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)XMLParseDidFinishSuccessfully:(NSArray *)xml{
+    NSLog(@"Success");
+    NSLog(@"%@",xml);
+}
+-(void)XMLParseDidFail{
+    #warning - handle failed XML parse here
+    NSLog(@"Failed VC Parse");
 }
 
 @end
