@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Easy to use XML Parser that ouputs in dictionary format.
+Easy to use XML Parser that outputs in dictionary format written in Objective-C.
                        DESC
 
   s.homepage         = 'https://github.com/StarClutch/XML-Parse'
