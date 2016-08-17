@@ -50,6 +50,12 @@ Finally receive the success or fail notifications using:
     NSLog(@"Failed VC Parse");
 }
 ```
+Some options you can use before calling `parse`:
+
+```ruby
+parse.startingTreeElement=@"item"; // - most start with item - this allows you to overwrite it - defult: item
+parse.cleanString=YES; // - a lot of XML feeds include \n & \t at the front and back of the string - this gives you the opion to remove that content - default: YES
+```
 
 
 ## Author
