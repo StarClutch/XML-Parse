@@ -1,6 +1,8 @@
 # XML-Parse
 Easy to use XML Parser that outputs in dictionary format written in Objective-C.
 
+[b] Bug or Feature Request? Open an issue :) [/b]
+
 [![CI Status](http://img.shields.io/travis/Blake/XML-Parse.svg?style=flat)](https://travis-ci.org/Blake/XML-Parse)
 [![Version](https://img.shields.io/cocoapods/v/XML-Parse.svg?style=flat)](http://cocoapods.org/pods/XML-Parse)
 [![License](https://img.shields.io/cocoapods/l/XML-Parse.svg?style=flat)](http://cocoapods.org/pods/XML-Parse)
