@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XML-Parse_Example' do
+  pod 'XML-Parse', :path => '../'
+
+  target 'XML-Parse_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
